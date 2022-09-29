@@ -1,9 +1,10 @@
 ﻿using EmailServer.Models;
+using FluentEmail.Core;
 
 namespace EmailServer.Services.EmailServices
 {
     public interface IEmailService
     {
-        public void SendEmail(Email email);
+        public Task<bool> SendEmail(SenderEmail email);
     }
 }
