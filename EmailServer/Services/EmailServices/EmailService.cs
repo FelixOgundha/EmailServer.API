@@ -13,7 +13,7 @@ namespace EmailServer.Services.EmailServices
             smtp.EnableSsl = true;
             smtp.Port = 587;
             smtp.Credentials = new NetworkCredential("felixadams6116@gmail.com",
-               "zpixtfepnkwhvpdp");
+               "zpixtfepnkwhxxxxx");
             smtp.Send("felixadams6116@gmail.com", email.To,
                email.Subject, email.Body);
          
