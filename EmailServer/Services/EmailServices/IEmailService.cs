@@ -1,5 +1,4 @@
 ﻿using EmailServer.Models;
-using FluentEmail.Core;
 
 namespace EmailServer.Services.EmailServices
 {
